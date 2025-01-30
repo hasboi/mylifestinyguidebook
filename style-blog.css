@@ -53,7 +53,6 @@ footer p {
   margin: 0;
 }
 
-/* Responsif untuk mobile (max-width: 767px) */
 @media (max-width: 767px) {
   body {
     padding: 10px 20px;
@@ -69,9 +68,9 @@ footer p {
   }
 
   p {
-    line-height: 20px;
+    line-height: 26px;
     letter-spacing: 0.2px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   footer {
