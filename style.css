@@ -683,12 +683,13 @@ footer {
   }
   
   .about-container h2 {
-    font-size: 18px;
+    font-size: 1.5rem;
   }
   
   p.about-description {
-    font-size: 12px;
-    letter-spacing: 0.5px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    font-size: 0.9rem;
   }
 
   .about-container {
