@@ -684,6 +684,8 @@ footer {
   
   .about-container h2 {
     font-size: 1.5rem;
+    border-bottom: #aaa 1px solid;
+    padding-bottom: 10px;
   }
   
   p.about-description {
