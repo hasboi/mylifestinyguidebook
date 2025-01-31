@@ -711,7 +711,6 @@ footer {
   }
 
   .canvas-container canvas {
-    cursor: none;
     pointer-events: none;
   }
 
