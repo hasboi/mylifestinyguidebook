@@ -365,6 +365,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // posting
   const posts = [
     {
+      title: "Tentang Pangeran Kecil",
+      content: "Novel favoritku!",
+      genres: ["Diary"],
+    },
+    {
       title: "Hello World!",
       content: "Tentang mylifestinyguidebook.",
       genres: ["Diary"],

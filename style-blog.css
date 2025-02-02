@@ -48,6 +48,13 @@ a {
   display: inline-block;
 }
 
+figure.left {
+  float: left;
+  width: 40%;
+  margin-right: 30px;
+}
+
+
 footer {
   text-decoration: none;
 }
@@ -84,5 +91,10 @@ footer p {
 
   img {
     margin: 15px 0;
+  }
+
+  figure.left {
+    float: none;
+    width: 100%;
   }
 }
