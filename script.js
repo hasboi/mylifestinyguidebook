@@ -364,17 +364,22 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   // posting
   const posts = [
-    {
-      title: "Tentang Pangeran Kecil",
-      content: "Novel favoritku!",
-      genres: ["Diary"],
-    },
-    {
-      title: "Hello World!",
-      content: "Tentang mylifestinyguidebook.",
-      genres: ["Diary"],
-    },
-  ];
+		{
+			title: "Harrison Claire",
+			content: "Seorang jenius yang mengubah dunia, terselip sesuatu yang tak pernah benar-benar kita mengerti—sebuah kekuatan yang terlalu sempurna untuk tidak dipertanyakan.",
+			genres: ['Cerpen', 'Alt. History', 'Sci-fi', 'Satire', 'Fiction', 'Romance'],
+		},
+		{
+			title: "Tentang Pangeran Kecil",
+			content: "Novel favoritku!",
+			genres: ["Diary"],
+		},
+		{
+			title: "Hello World!",
+			content: "Tentang mylifestinyguidebook.",
+			genres: ["Diary"],
+		},
+	];
 
   const postContainer = document.querySelector(".post-container");
   const paginationControls = document.querySelector(".pagination");
@@ -878,7 +883,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((response) => response.json())
       .then((data) => {
         if (data.result === "success") {
-          showFeedback("Terima kasih telah berlangganan!");
+          showFeedback("Berhasil! (Jangan lupa ngecek email sering-sering ya)");
         } else if (data.error && data.error.includes("already exists")) {
           showFeedback("Email sudah terdaftar!", true);
         } else {
