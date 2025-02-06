@@ -366,7 +366,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const posts = [
 		{
 			title: "Harrison Clair",
-			content: "Seorang jenius yang mengubah dunia, terselip sesuatu yang tak pernah benar-benar kita mengerti—sebuah kekuatan yang terlalu sempurna untuk tidak dipertanyakan.",
+			content: "Harrison Clair adalah sebuah kekuatan yang terlalu sempurna untuk tidak dipertanyakan.",
 			genres: ['Cerpen', 'Alt. History', 'Sci-fi', 'Satire', 'Fiction', 'Romance'],
 		},
 		{
