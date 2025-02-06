@@ -372,7 +372,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		{
 			title: "Tentang Pangeran Kecil",
 			content: "Novel favoritku!",
-			genres: ["Diary"],
+			genres: ["Cerpen", "Real life", "Review"],
 		},
 		{
 			title: "Hello World!",
