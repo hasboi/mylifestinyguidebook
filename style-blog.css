@@ -1,100 +1,99 @@
 body {
-  background-color: #111;
-  color: #fdf6e3;
-  font-family: "Gloria Hallelujah", cursive;
-  padding: 30px 150px;
+	background-color: #111;
+	color: #fdf6e3;
+	font-family: "Gloria Hallelujah", cursive;
+	padding: 30px 150px;
 }
 
 header {
-  border-bottom: #aaa 1px solid;
-  padding-bottom: 21px;
-  margin: 0 0 0 0 21px;
+	border-bottom: #aaa 1px solid;
+	padding-bottom: 21px;
+	margin: 0 0 0 0 21px;
 }
 
 h1 {
-  margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 p {
-  line-height: 30px;
-  letter-spacing: 0.3px;
-  text-align: justify;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+	text-align: justify;
 }
 
 footer {
-  border-top: #aaa 1px solid;
-  margin-top: 50px;
-  padding-top: 20px;
-  text-align: center;
-  font-size: 0.9rem;
+	border-top: #aaa 1px solid;
+	margin-top: 50px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 0.9rem;
 }
 
 footer p {
-  text-align: center;
+	text-align: center;
 }
 
 img {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 
 figure {
-  margin: 20px 0;
-  text-align: center;
+	margin: 20px 0;
+	text-align: center;
 }
 
 a {
-  color: inherit;
-  display: inline-block;
+	color: inherit;
+	display: inline-block;
 }
 
 figure.left {
-  float: left;
-  width: 40%;
-  margin-right: 30px;
+	float: left;
+	width: 40%;
+	margin-right: 30px;
 }
 
-
 footer {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 footer p {
-  margin: 0;
+	margin: 0;
 }
 
 @media (max-width: 767px) {
-  body {
-    padding: 10px 20px;
-  }
+	body {
+		padding: 10px 20px;
+	}
 
-  header {
-    padding-bottom: 10px;
-  }
+	header {
+		padding-bottom: 10px;
+	}
 
-  h1 {
-    font-size: 1.5rem;
-    margin-bottom: 3px;
-  }
+	h1 {
+		font-size: 1.5rem;
+		margin-bottom: 3px;
+	}
 
-  p {
-    line-height: 26px;
-    letter-spacing: 0.2px;
-    font-size: 0.9rem;
-  }
+	p {
+		line-height: 26px;
+		letter-spacing: 0.2px;
+		font-size: 0.9rem;
+	}
 
-  footer {
-    margin-top: 30px;
-    padding-top: 10px;
-    font-size: 0.7rem;
-  }
+	footer {
+		margin-top: 30px;
+		padding-top: 10px;
+		font-size: 0.7rem;
+	}
 
-  img {
-    margin: 15px 0;
-  }
+	img {
+		margin: 15px 0;
+	}
 
-  figure.left {
-    float: none;
-    width: 100%;
-  }
+	figure.left {
+		float: none;
+		width: 100%;
+	}
 }
