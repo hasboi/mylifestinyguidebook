@@ -365,6 +365,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	// posting
 	const posts = [
 		{
+			title: "Taman Bunga Untukmu",
+			content:
+				"Mungkin, pada akhirnya, semua ini hanyalah tentang bagaimana cinta menemukan caranya sendiri untuk tetap hidup, meski tak pernah benar-benar dimiliki.",
+			genres: ["Cerpen", "Romance", "Surreal"],
+		},
+		{
 			title: "Proton.sh",
 			content:
 				"Proton.sh adalah asisten belajar berbasis terminal yang lahir dari rasa malas, dirancang untuk membantu persiapan UTBK dengan cara yang (semoga) berguna.",
