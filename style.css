@@ -479,11 +479,11 @@ a {
 }
 
 .donate-section {
-	flex: 2;
+	flex: 3;
 }
 
 .subs-section {
-	flex: 3;
+	flex: 2;
 	padding: 20px 50px;
 }
 
