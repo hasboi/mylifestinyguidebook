@@ -366,7 +366,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	const posts = [
 		{
 			title: "Proton.sh",
-			content: "Tentang proyek terbaruku.",
+			content:
+				"Proton.sh adalah asisten belajar berbasis terminal yang lahir dari rasa malas, dirancang untuk membantu persiapan UTBK dengan cara yang (semoga) berguna.",
 			genres: ["Diary", "Project"],
 		},
 		{
