@@ -14,7 +14,8 @@
 <body>
   <header class="now">
     <h1>Now</h1>
-    <p>Last updated: 11 February 2025</p>
+    <p>Last updated: 12 February 2025</p>
+    <p>Days until UTBK: <span id="countdown"></span></p>
     <iframe style="border-radius:12px"
       src="https://open.spotify.com/embed/track/4PwWESSlTwzvw9B7bmtTLS?utm_source=generator" width="300px" height="100"
       frameBorder="0" allowfullscreen=""
@@ -42,12 +43,29 @@
     </section> -->
 
     <footer>
+      <p>Terima kasih sudah membaca!</p>
       <a href="..">
         < Kembali</a>
     </footer>
   </div>
 
+  <script>
+    function updateCountdown() {
+      const utbkDate = new Date("April 23, 2025 00:00:00").getTime();
+      const now = new Date().getTime();
+      const difference = utbkDate - now;
 
+      if (difference > 0) {
+        const daysLeft = Math.floor(difference / (1000 * 60 * 60 * 24));
+        document.getElementById("countdown").textContent = daysLeft;
+      } else {
+        document.getElementById("countdown").textContent = "UTBK is happening!";
+      }
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000 * 60 * 60); // Update every hour
+  </script>
 </body>
 
 </html>
