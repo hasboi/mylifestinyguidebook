@@ -138,16 +138,6 @@ document.addEventListener("DOMContentLoaded", () => {
 					roughness: 1.5,
 				});
 			});
-
-			if (isPlanetScene) {
-				rc.circle(planetCenterX, planetCenterY, planetRadius * 2, {
-					fill: "#fdd9c1",
-					fillStyle: "zigzag",
-					stroke: "#f7b899",
-					strokeWidth: 2,
-					roughness: 1.2,
-				});
-			}
 		};
 
 		const observer = new IntersectionObserver(

@@ -22,7 +22,7 @@ p.about-description {
 
 #landing {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	flex-direction: row;
 	gap: 40px;
@@ -34,7 +34,8 @@ p.about-description {
 }
 
 .content {
-	max-width: 50%;
+	max-width: 100%;
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
@@ -63,6 +64,7 @@ p.about-description {
 .buttons {
 	display: flex;
 	gap: 15px;
+	justify-content: center;
 }
 
 button {
